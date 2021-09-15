@@ -108,11 +108,6 @@
   font-style: italic;
   src: url(../fonts/font/GoogleSans-BlackItalic.ttf) format("truetype");
 }
-*,
-:after,
-:before {
-  font-family: Google, sans-serif;
-}
 body {
   font-size: 15px;
   line-height: 1.6;
