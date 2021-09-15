@@ -298,9 +298,9 @@
   .mobile-nav .logo {
     text-decoration: none;
     position: absolute;
-    top: 13px;
+    top: 6px;
     z-index: 999;
-    left: 15px;
+    left: 5px;
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
