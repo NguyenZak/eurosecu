@@ -1,9 +1,122 @@
 @import "https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&amp;display=swap";
 @import "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&amp;display=swap";
+@font-face {
+  font-family: Google;
+  font-weight: 100;
+  font-style: normal;
+  src: url(../fonts/font/GoogleSans-Thin.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 100;
+  font-style: italic;
+  src: url(../fonts/font/GoogleSans-ThinItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 200;
+  font-style: normal;
+  src: url(../fonts/font/GoogleSans-Thin.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 200;
+  font-style: italic;
+  src: url(../fonts/font/GoogleSans-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 300;
+  font-style: normal;
+  src: url(../fonts/font/GoogleSans-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 300;
+  font-style: italic;
+  src: url(../fonts/font/GoogleSans-LightItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/font/GoogleSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 400;
+  font-style: italic;
+  src: url(../fonts/font/GoogleSans-Italic.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 500;
+  font-style: normal;
+  src: url(../fonts/font/GoogleSans-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 500;
+  font-style: italic;
+  src: url(../fonts/font/GoogleSans-MediumItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 600;
+  font-style: normal;
+  src: url(../fonts/font/GoogleSans-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 600;
+  font-style: italic;
+  src: url(../fonts/font/GoogleSans-MediumItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/font/GoogleSans-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 700;
+  font-style: italic;
+  src: url(../fonts/font/GoogleSans-BoldItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 800;
+  font-style: normal;
+  src: url(../fonts/font/GoogleSans-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 800;
+  font-style: italic;
+  src: url(../fonts/font/GoogleSans-BoldItalic.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 900;
+  font-style: normal;
+  src: url(../fonts/font/GoogleSans-Black.ttf) format("truetype");
+}
+@font-face {
+  font-family: Google;
+  font-weight: 900;
+  font-style: italic;
+  src: url(../fonts/font/GoogleSans-BlackItalic.ttf) format("truetype");
+}
+*,
+:after,
+:before {
+  font-family: Google, sans-serif;
+}
 body {
   font-size: 15px;
   line-height: 1.6;
-  font-family: livvic, sans-serif;
+  font-family: Google, sans-serif;
   color: #444;
   font-weight: 400;
 }
