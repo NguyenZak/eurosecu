@@ -535,6 +535,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 .img-thumbnail {
   padding: 0.25rem;
@@ -1005,10 +1006,13 @@ progress {
   .col-md-3 {
     flex: 0 0 auto;
     width: 25%;
+    padding: 0 10px 0 10px;
   }
   .col-md-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
+
+    padding: 0 10px 0 10px;
   }
   .col-md-5 {
     flex: 0 0 auto;
@@ -1174,6 +1178,8 @@ progress {
   .col-lg-3 {
     flex: 0 0 auto;
     width: 25%;
+    text-align: center;
+    align-items: center;
   }
   .col-lg-4 {
     flex: 0 0 auto;
@@ -1186,6 +1192,11 @@ progress {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
+  }
+  .col-lg-6-1 {
+    flex: 0 0 auto;
+    width: 50%;
+    text-align: left;
   }
   .col-lg-7 {
     flex: 0 0 auto;
@@ -1210,6 +1221,7 @@ progress {
   .col-lg-12 {
     flex: 0 0 auto;
     width: 100%;
+    text-align: center;
   }
   .offset-lg-0 {
     margin-left: 0;
@@ -4242,7 +4254,7 @@ fieldset:disabled .btn {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  /* border: 1px solid rgba(0, 0, 0, 0.125); */
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -4312,7 +4324,7 @@ fieldset:disabled .btn {
   margin-left: -0.5rem;
 }
 .card-img-overlay {
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
   bottom: 0;
@@ -5676,8 +5688,9 @@ fieldset:disabled .btn {
 }
 .carousel-inner {
   position: relative;
-  width: 100%;
+  max-width: 1170px;
   overflow: hidden;
+  margin: auto;
 }
 .carousel-inner::after {
   display: block;

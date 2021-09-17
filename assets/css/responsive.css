@@ -20,7 +20,8 @@
     padding-bottom: 20px;
   }
   .pt-45 {
-    padding-top: 30px;
+    padding: 12px 0px 12px 0 ;
+    text-align: center;
   }
   .ml-20 {
     margin-left: 10px;
@@ -38,7 +39,8 @@
     padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
   }
   .default-btn {
-    padding: 8px 18px;
+    padding: 12px 12px;
+    width: 40%;
   }
   .section-title span {
     font-size: 14px;
