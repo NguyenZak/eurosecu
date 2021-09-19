@@ -2644,7 +2644,7 @@ svg {
   top: 10px;
   left: 0;
   font-size: 60px;
-  color: #0c2d48;
+  color:#fff;
   line-height: 1;
 }
 .choose-content .choose-content-card .content h3 {
@@ -3053,6 +3053,7 @@ svg {
   background-color: #070b3b;
   position: relative;
   z-index: 1;
+
 }
 .call-us-area::before {
   content: "";
@@ -5219,6 +5220,7 @@ svg {
 .contact-form .form-group {
   margin-bottom: 20px;
   position: relative;
+  text-align: start;
 }
 .contact-form .form-group label {
   color: #252525;
@@ -5256,6 +5258,7 @@ svg {
   width: 100%;
   border-radius: 0;
   font-weight: 500;
+  border-radius: 10px;
 }
 .contact-form .form-group .form-control:focus {
   outline: none;
@@ -5269,6 +5272,7 @@ svg {
 .contact-form .agree-label {
   margin-bottom: 15px;
   position: relative;
+  text-align: start;
 }
 .contact-form .agree-label #chb1 {
   position: absolute;
@@ -5406,6 +5410,7 @@ svg {
 }
 .contact-info ul {
   list-style: none;
+  text-align: start;
   margin: 0;
   padding: 0;
 }
@@ -5642,7 +5647,7 @@ svg {
   background-color: #070b3b;
 }
 .footer-widget {
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 
 }
 .footer-widget .footer-logo {

@@ -1641,7 +1641,7 @@
     top: 40%;
   }
   .banner-item-content {
-    max-width: 600px;
+    max-width: auto;
   }
   .banner-item-content h1 {
     font-size: 55px;

@@ -5,7 +5,7 @@
     .on("submit", function (event) {
       if (event.isDefaultPrevented()) {
         formError();
-        submitMSG(false, "Did you fill up the form properly?");
+        submitMSG(false, "Vui lòng điền đầy đủ thông tin!");
       } else {
         event.preventDefault();
         submitForm();
@@ -14,8 +14,8 @@
   function submitForm() {
     var name = $("#name").val();
     var email = $("#email").val();
-    var msg_subject = $("#msg_subject").val();
     var phone_number = $("#phone_number").val();
+    var msg_select = $("#msg_select").val();
     var message = $("#message").val();
     $.ajax({
       type: "POST",
@@ -25,8 +25,8 @@
         name +
         "&email=" +
         email +
-        "&msg_subject=" +
-        msg_subject +
+        "&msg_select=" +
+        msg_select +
         "&phone_number=" +
         phone_number +
         "&message=" +
