@@ -2074,7 +2074,6 @@ svg {
   margin-right: auto;
 }
 .security-card {
-  height:420px;
   background-color: #fff;
   position: relative;
   z-index: 1;
@@ -2082,8 +2081,8 @@ svg {
   border-radius: 15px;
   margin-bottom: 30px;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  border-bottom: 3px solid #0c2d48;
+  box-shadow: 0 0 15px rgb(0 0 0 / 5%);
+  border: 1px dotted #0c2d48;
 }
 .security-card i {
   font-size: 45px;
@@ -3630,7 +3629,7 @@ svg {
   padding: 200px 0;
   text-align: center;
   background-image: 
-  url(../images/technology-img.jpg);
+  url(../images/about/about-img1.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
