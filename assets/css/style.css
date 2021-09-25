@@ -1,104 +1,20 @@
 @import "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&amp;display=swap";
 
-
-#wrap {
-  margin: 20px auto;
-  text-align: center;
-}
-
-.btn-slide, .btn-slide2 {
-  position: relative;
-  display: inline-block;
-  width: 200px;
-  line-height: 50px;
-  padding: 0;
+.btn-download {
+  background-color: #0c2d48;
+  border: none;
+  color: white;
   border-radius: 50px;
-  background: #fdfdfd;
-  border: 2px solid #0099cc;
-  margin: 10px;
-  transition: .5s;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
 }
 
-.btn-slide2 {
-  border: 2px solid #0c2d48;
+/* Darker background on mouse-over */
+.btn-download:hover {
+  background-color: #daa16a;
 }
 
-.btn-slide:hover {
-  background-color: #0099cc;
-}
-
-.btn-slide2:hover {
-  background-color: #0c2d48;
-}
-
-.btn-slide:hover span.circle, .btn-slide2:hover span.circle2 {
-  left: 100%;
-  margin-left: -45px;
-  background-color: #fdfdfd;
-  color: #0099cc;
-}
-
-.btn-slide2:hover span.circle2 {
-  color: #0c2d48;
-}
-
-.btn-slide:hover span.title, .btn-slide2:hover span.title2 {
-  left: 40px;
-  opacity: 0;
-}
-
-.btn-slide:hover span.title-hover, .btn-slide2:hover span.title-hover2 {
-  opacity: 1;
-  left: 40px;
-}
-
-.btn-slide span.circle, .btn-slide2 span.circle2 {
-  display: block;
-  background-color: #0099cc;
-  color: #fff;
-  position: relative;
-  float: left;
-  margin: 5px;
-  line-height: 42px;
-  height: 40px;
-  width: 40px;
-  top: 0;
-  left: 0;
-  transition: .5s;
-  border-radius: 50%;
-}
-
-.btn-slide2 span.circle2 {
-  background-color: #0c2d48;
-}
-
-.btn-slide span.title,
-.btn-slide span.title-hover, .btn-slide2 span.title2,
-.btn-slide2 span.title-hover2 {
-  position: absolute;
-  left: 90px;
-  text-align: center;
-  margin: 0 auto;
-  font-size: 16px;
-  font-weight: bold;
-  color: #30abd5;
-  transition: .5s;
-}
-
-.btn-slide2 span.title2,
-.btn-slide2 span.title-hover2 {
-  color: #0c2d48;
-  left: 80px;
-}
-
-.btn-slide span.title-hover, .btn-slide2 span.title-hover2 {
-  left: 80px;
-  opacity: 0;
-}
-
-.btn-slide span.title-hover, .btn-slide2 span.title-hover2 {
-  color: #fff;
-}
 .container.gallery-container {
   background-color: #fff;
   color: #35373a;
