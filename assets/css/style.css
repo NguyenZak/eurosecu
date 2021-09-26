@@ -1447,13 +1447,13 @@ svg {
   margin-bottom: 35px;
 }
 .item-bg1 {
-  background-image: url(../images/home-one/home-one-img1.jpg);
+  background-image: url(https://res.cloudinary.com/eurosecuriy/image/upload/v1632668651/Euru%20Security/los-cabos-security-services_u1arcg.jpg);
 }
 .item-bg2 {
   background-image: url(../images/home-one/home-one-img2.jpg);
 }
 .item-bg3 {
-  background-image: url(https://res.cloudinary.com/eurosecuriy/image/upload/v1632668651/Euru%20Security/los-cabos-security-services_u1arcg.jpg);
+  background-image: url(../images/home-one/home-one-img1.jpg);
 }
 .banner-area {
   position: relative;
