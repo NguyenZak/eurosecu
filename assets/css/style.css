@@ -1,5 +1,11 @@
 @import "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&amp;display=swap";
 
+.center{
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
 .btn-download {
   background-color: #0c2d48;
   width: 200px;
@@ -2151,12 +2157,16 @@ svg {
   max-width: 760px;
 }
 .services-card {
+  text-align: center;
   padding: 30px 20px 25px;
   background-color: #fff;
   border-radius: 10px;
   position: relative;
   z-index: 1;
   margin-bottom: 30px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 15px rgb(0 0 0 / 5%);
+  border: 1px solid;
 }
 .services-card::before {
   content: "";
