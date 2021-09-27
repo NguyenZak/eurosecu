@@ -367,31 +367,7 @@ button:not(:disabled) {
 textarea {
   resize: vertical;
 }
-fieldset {
-  min-width: 0;
-  padding: 10px;
-  margin: 0;
-  border: 4px solid #daa16a;
-  border-radius: 10px;
-}
-legend {
-  width: auto !important;
-  margin-left: 10px;
-  margin-bottom: 0.5rem;
-  font-size: calc(1.325rem + 0.9vw);
-  line-height: inherit;
-  font-weight: 600;
-}
-@media (min-width: 1200px) {
-  legend {
-    font-size: 2rem;
-    font-weight: 600;
-    color: #252525;
-  }
-}
-legend + * {
-  clear: left;
-}
+
 ::-webkit-datetime-edit-day-field,
 ::-webkit-datetime-edit-fields-wrapper,
 ::-webkit-datetime-edit-hour-field,
