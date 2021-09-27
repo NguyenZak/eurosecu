@@ -30,7 +30,7 @@
 }
 .btn-download {
   background-color: #0c2d48;
-  width: 200px;
+  width: 170px;
   border: none;
   color: white;
   border-radius: 5px;
@@ -40,6 +40,12 @@
   position: relative;
   overflow: hidden;
   z-index: 1;
+}
+.about-padding-left{
+  padding-left: 0;
+}
+.about-padding-right{
+  padding-right: 0;
 }
 
 /* Darker background on mouse-over */
