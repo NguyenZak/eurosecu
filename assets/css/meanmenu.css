@@ -15,7 +15,7 @@
   position: absolute;
   right: 0;
   cursor: pointer;
-  color: #0071dc;
+  color: #0c2d48;
   text-decoration: none;
   font-size: 16px;
   text-indent: -9999em;
@@ -26,7 +26,7 @@
 }
 .mean-container a.meanmenu-reveal span {
   display: block;
-  background: #0071dc;
+  background: #0c2d48;
   position: relative;
   height: 4px;
   margin-top: -5px;
