@@ -52,6 +52,7 @@
   width: 100%;
 }
 .mean-container .mean-nav ul li a {
+  font-weight: 500;
   display: block;
   float: left;
   width: 90%;

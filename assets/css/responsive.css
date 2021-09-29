@@ -2057,3 +2057,14 @@
     font-size: 13px;
   }
 }
+@media (max-width: 992px){
+.menu-social {
+    position: fixed;
+}
+.menu-social ul li a {
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+}
+}
+

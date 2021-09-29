@@ -201,7 +201,7 @@ li.removeClass('active');
     dots: false,
     autoplay: true,
     autoplayHoverPause: true,
-    responsive: { 0: { items: 1 }, 992: { items: 2 } },
+    responsive: { 0: { items: 1 }, 768: { items: 2 }, 992: { items: 3}},
     navText: [
       "<i class='bx bx-chevron-left'></i>",
       "<i class='bx bx-chevron-right'></i>",
