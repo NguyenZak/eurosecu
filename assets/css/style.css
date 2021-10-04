@@ -540,6 +540,7 @@ h2 {
 img,
 svg {
   max-width: 100%;
+  border-radius: 10px;
 }
 .ptb-100 {
   padding-top: 50px;
@@ -6304,6 +6305,13 @@ svg {
   border-radius: 50%;
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 52%);
 }
-.menu-social ul li:nth-child(2) a {
-  background: #d9212a;
+.menu-social ul li:nth-child(1) a {
+  background: #3b5998;
 }
+.menu-social ul li:nth-child(2) a {
+  background: #FF0000;
+}
+.menu-social ul li:nth-child(3) a {
+  background: #ffc221;
+}
+
