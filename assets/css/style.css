@@ -25,12 +25,7 @@ legend {
 legend + * {
   clear: left;
 }
-.d-none {
-  display: none !important;
-}
-.d-sm-inline-block {
-  display: inline-block !important;
-}
+
 .about-image{
   margin: 5px;
   width: auto;
