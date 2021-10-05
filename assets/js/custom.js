@@ -198,6 +198,7 @@ li.removeClass('active');
     loop: true,
     margin: 30,
     nav: true,
+    touchDrag: false,
     dots: false,
     autoplay: false,
     autoplayHoverPause: false,
@@ -213,6 +214,7 @@ li.removeClass('active');
     nav: true,
     dots: false,
     autoplay: false,
+    touchDrag: false,
     autoplayHoverPause: false,
     items: 1,
     navText: [
