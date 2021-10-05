@@ -975,11 +975,12 @@
     max-width: 100%;
   }
 }
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 576px) {
   .banner-item-content {
     padding-left: 15px;
     padding-right: 15px;
   }
+
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .banner-four-area .container-fluid,
