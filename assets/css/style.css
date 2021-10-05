@@ -96,7 +96,7 @@ legend + * {
 }
 .btn-download {
   background-color: #0c2d48;
-  width: 170px;
+  width: 100%;
   border: none;
   color: white;
   border-radius: 5px;
